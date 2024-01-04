@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(163, 248, 220);
+}
+nav > ul{
+    display: flex;
+    background-color: black;
+    padding: 15px;
+}
+nav li{
+   list-style: none;
+   padding: 10px;
+   margin-right: 10px;
+
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+}
+nav li a:hover{
+color: rgb(112, 228, 190);
+background-color: rgb(51, 57, 55);
+
+}
+
+#active{
+    background-color: rgb(4, 121, 101);
+    padding: 10px 17px;
+    border-radius: 25px;
+}
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    padding: 10px 20px;
+    background-color: rgb(8, 161, 110);
+    margin-top: 8px;
+}
+nav li:hover> .dropdown{
+    display: block;
+    padding: 10px 20px; 
+}
+nav li:hover> .dropdown1{
+    display: flex;
+    background-color: rgba(10, 11, 11, 0.788);
+    padding: 7px ; 
+   
+}
+
+
+
+figure > img{
+    width: 600px;
+    height: 400px;
+}
+.fo{
+    background-color: white;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 30px;
+}
+.fo a{
+    text-decoration: none;
+}
+.form{
+    background-color: rgb(8, 113, 106);
+    color: white;
+    margin-right: 20%;
+    margin-left: 20%;
+    border-radius: 30px;
+    text-align: center;
+}
+.form a{
+    text-decoration: none;
+    color: rgb(114, 192, 240);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(20, 2, 2);
+    color: antiquewhite;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    padding: 10px 35px;
+    margin-left: 30%;
+}
+td,th{
+    border: 2px solid black;
+
+}

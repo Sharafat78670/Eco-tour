@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 20px;
+            color: darkblue;
+                       
+        }
+        section{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <h2>ECO Tour - Brighters</h2>
+    <h3>Please fill up your valuable information ....</h3>
+    </section>
+    <br>
+    <form action="">
+        <label for="name">Your Name :
+            <input id="name" type="text" placeholder="Your name">
+        </label>
+        <label for="address">Your Address :
+            <input id="address" type="text" placeholder="your address">
+        </label>
+        <label for="mobile">Your Mobile :
+            <input id="mobile" type="number" placeholder="0150000000">
+        </label>
+        <label for="email">Your Email :
+            <input id="email" type="email" placeholder="xyz@gmail.com">
+        </label>
+        <fieldset style="width: 30%;">
+            <legend>Your favorite place</legend>
+            <label for="place">
+                <input type="radio" name="place" id="place">Noakhali
+            </label>
+            <label for="place">
+                <input type="radio" name="place" id="place">Sylhet
+            </label>
+            <label for="place">
+                <input type="radio" name="place" id="place">Cox's Bazar
+            </label>
+            <label for="place">
+                <input type="radio" name="place" id="place">Khulna
+            </label>
+        </fieldset>
+        <br>
+        <br>       
+            <input type="reset" value="reset">      
+            <input type="submit" value="submit">
+       
+    </form>
+    
+</body>
+</html>
